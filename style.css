@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+NG+Modern:wght@100..400&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Playwrite NG Modern", cursive;
+    font-optical-sizing: auto;
+}
+html,bdoy{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10%;
+    background-color: rgba(0, 19, 128, 0.514);
+}
+.calender-contenor{
+    width: 300px;
+    height: 350px;
+    background-color: rgba(219, 205, 205, 0.301);
+    /* color: #fff; */
+    border-radius: 20px;
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    font-size: 2vh;
+    box-shadow: -8px 11px 26px -5px rgba(32, 14, 14, 0.75);
+    -webkit-box-shadow: -8px 11px 26px -5px rgba(22, 17, 12, 0.466);
+    -moz-box-shadow: -8px 11px 26px -5px rgba(0,0,0,0.75);
+
+}
+.month-name{
+    width: 100%;
+    text-align: center;
+    padding: 5px;
+    /* border-bottom: 1px solid black; */
+    background-color: rgba(255, 38, 0, 0.63);
+    font-weight: 900;
+    font-size: 3vh;
+    border-radius: 20px 20px 0px 0px;
+}
+.day-name{
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    color: #2b161694;
+    font-weight: 500;
+    /* border-bottom: 1px solid black; */
+}
+.day-number{
+    width: 100%;
+    text-align: center;
+    /* border-bottom: 1px solid black; */
+    font-size: 7vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+.year{
+    width: 100%;
+    text-align: center; 
+    font-weight: 800;
+    color: rgba(58, 18, 18, 0.692);
+}
